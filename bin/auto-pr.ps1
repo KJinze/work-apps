@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "KJnze/workapps:main"
+    [String]$upstream = "KJinze/work-apps:master"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
